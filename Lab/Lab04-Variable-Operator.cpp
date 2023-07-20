@@ -44,7 +44,7 @@ int main() {
     
     float sum = timework*money;
 
-    printf("Expected Output: \nEmployees ID = %s \n", id);
+    printf("Expected Output:\nEmployees ID = %s \n", id);
     printf("Salary = U$ %0.2f ", sum);
 
     return 0 ;
