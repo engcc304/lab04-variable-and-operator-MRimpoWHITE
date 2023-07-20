@@ -30,19 +30,21 @@
 int main() {
 
     char id[9];
-    int timework;
-    int money ;
+    float timework;
+    float money ;
 
     printf("Input the Employees ID(Max. 10 chars):\n");
     scanf( "%s",id);
 
     printf("Input the working hrs:\n");
-    scanf( "%d",&timework);
+    scanf( "%f",&timework);
 
     printf("Salary amount/hr :\n");
-    scanf( "%d" , &money);
+    scanf( "%f" , &money);
     
-    float sum = timework*money;
+
+    float sum;
+    sum = timework*money;
 
     printf("Expected Output:\nEmployees ID = %s\n",id);
     printf("Salary = U$ %0.2f",sum);
