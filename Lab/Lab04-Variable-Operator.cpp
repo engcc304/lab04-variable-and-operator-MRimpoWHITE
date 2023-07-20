@@ -29,7 +29,27 @@
 
 int main() {
 
-    //--| YOUR CODE HERE
+    char id[10];
+    int timework;
+    int money ;
+
+    printf("Enter Your Info \n");
+
+    printf("Employees ID = ");
+    scanf( "%s" ,id );
+
+    printf("working hrs = ");
+    scanf( "%d" , timework );
+
+    printf("Salary = ");
+    scanf( "%d" , money );
+    
+    // int sum ;
+
+    // sum = TimeWork * Money;
+
+    // printf("Expected Output: \n Employees ID = %s ");
+
 
     return 0 ;
 }//end main function
