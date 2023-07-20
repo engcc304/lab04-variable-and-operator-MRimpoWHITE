@@ -39,16 +39,15 @@ int main() {
     scanf( "%s" ,id );
 
     printf("working hrs = ");
-    scanf( "%d" , timework );
+    scanf( "%d" , &timework);
 
     printf("Salary = ");
-    scanf( "%d" , money );
+    scanf( "%d" , &money);
     
-    // int sum ;
+    float sum = timework*money;
 
-    // sum = TimeWork * Money;
-
-    // printf("Expected Output: \n Employees ID = %s ");
+    printf("Expected Output: \nEmployees ID = %s \n", id);
+    printf("Salary = U$ %0.2f ", sum);
 
     return 0 ;
 }//end main function
