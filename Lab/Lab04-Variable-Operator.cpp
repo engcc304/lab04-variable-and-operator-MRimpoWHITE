@@ -29,14 +29,14 @@
 
 int main() {
 
-    char id[10];
+    char id[9];
     int timework;
     int money ;
 
     printf("Enter Your Info \n");
 
     printf("Employees ID = ");
-    scanf( "%s" ,id );
+    scanf( "%s" , id );
 
     printf("working hrs = ");
     scanf( "%d" , &timework);
